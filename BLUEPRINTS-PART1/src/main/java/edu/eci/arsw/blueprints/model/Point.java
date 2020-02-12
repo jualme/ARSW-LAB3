@@ -38,6 +38,17 @@ public class Point {
         this.y = y;
     }
     
+    public int hashCode() {
+    	return 4; 
+    }
     
+    public boolean equals(Object o) {
+    	boolean flag = false;
+    	if (o instanceof Point) {
+    		Point point = (Point) o;
+    		if (point.getX() == x && point.getY() == y) flag = true;    				
+    	}
+    	return flag;
+    }
     
 }

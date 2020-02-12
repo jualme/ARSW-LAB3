@@ -27,9 +27,7 @@ public class Main {
 			Blueprint blue2 = bs.getBlueprint("Pedro", "Ezequiel");
 			System.out.println(blue2);
 			// Test getBlueprintsByAuthor
-			System.out.println(bs.getBlueprintsByAuthor("Pedro"));
-
-			
+			System.out.println(bs.getBlueprintsByAuthor("Pedro"));		
 			
 		} catch (BlueprintPersistenceException e) {
 			// TODO Auto-generated catch block
